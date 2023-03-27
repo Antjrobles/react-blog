@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { PostCard, Categories, PostWidget, Header } from "../components";
@@ -18,7 +17,7 @@ import {
 
 const clerkPubKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
-const Home: NextPage = ({ posts }) => {
+const Home  = ({ posts }) => {
   return (
 
     <ClerkProvider publishableKey={clerkPubKey}>

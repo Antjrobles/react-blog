@@ -1,8 +1,14 @@
-import React from 'react';
 import { useEffect, useState } from 'react';
 
 import '../styles/globals.scss';
 import { Layout, Header } from '../components';
+
+
+
+
+
+
+
 
 function MyApp({ Component, pageProps }) {
   return (
